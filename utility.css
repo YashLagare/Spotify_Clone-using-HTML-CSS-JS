@@ -1,0 +1,84 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-cente {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-gray {
+  background-color: #121212;
+}
+
+.rounded {
+  border-radius: 7px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p1 {
+  padding: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Background of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the handle */
+    border-radius: 10px; /* Rounded corners for the handle */
+    border: 2px solid #333; /* Padding around the handle */
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Color of the handle when hovered */
+}
+
+/* Firefox scrollbar styles */
+* {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #555 #333; /* Handle color and track color */
+}
+
+/* Handle for Firefox */
+*::-moz-scrollbar-thumb {
+    background-color: #555; /* Color of the handle */
+    border-radius: 10px; /* Rounded corners for the handle */
+    border: 2px solid #333; /* Padding around the handle */
+}
+
+/* Track for Firefox */
+*::-moz-scrollbar-track {
+    background-color: #333; /* Background of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
